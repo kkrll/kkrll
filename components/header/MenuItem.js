@@ -4,7 +4,7 @@ import Link from "next/link"
 const MenuItem = ({ pageName, address }) => {
   return (
     <Link href={address}>
-     <span className="menu-item">{pageName}</span> 
+     <a className="menu-item">{pageName}</a> 
     </Link>
   );
 };
