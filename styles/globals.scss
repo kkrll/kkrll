@@ -1,0 +1,130 @@
+html,
+body {
+  padding: 0;
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
+    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+@import "theme";
+
+//helpers
+
+//font-weight
+
+.bold-it {
+  font-weight: 400;
+  font-style: italic;
+}
+.bold {
+  font-weight: 500;
+}
+.light-it {
+  font-weight: 200;
+  font-style: italic;
+}
+.light {
+  font-weight: 200;
+}
+
+// typography
+
+h1 {
+  font-weight: 400;
+}
+h2 {
+  font-weight: 400;
+}
+h3 {
+  font-weight: 400;
+}
+p {
+  line-height: 1.4;
+}
+
+//layout
+
+.columns {
+  display: flex;
+  justify-content: space-between;
+}
+
+//margins
+
+.mb-4 {
+  margin-bottom: 16px;
+}
+.mb-6 {
+  margin-bottom: 24px;
+}
+.mb-8 {
+  margin-bottom: 32px;
+}
+
+//styles
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  color: $dark-primary;
+  font-family: $font-primary;
+  background-color: $light-secondary;
+  font-weight: 300;
+}
+
+.app {
+  display: flex;
+  flex-direction: column;
+  max-width: 960px;
+  margin: 0 auto;
+}
+
+header {
+  position: fixed;
+  top: 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  max-width: 960px;
+  height: 3rem;
+  margin: 0 auto;
+  background-color: $light-secondary;
+}
+
+.logo {
+  font-weight: 500;
+}
+
+.menu-item {
+  padding: 1rem;
+  color: $dark-primary;
+  text-decoration: none;
+  transition: cubic-bezier(0.075, 0.82, 0.165, 1) 0.3s;
+  margin-left: 1rem;
+}
+
+.menu-item:hover {
+  padding: 1rem;
+  background-color: $grey-primary;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.hero {
+  margin-top: 45vh;
+  display: flex;
+  align-items: center;
+}

@@ -1,15 +1,8 @@
-import Head from 'next/head'
+import React from "react";
 
-export default function Home() {
+const Hero = () => {
   return (
-    <div>
-      <Head>
-        <title>Kiryl Kavalenka</title>
-        <link rel="icon" href="/favicon.ico" />
-      </Head>
-
-      <main>
-      <section className="hero">
+    <section className="hero">
       <div>
         <h1 className="mb-8">
           Yo. <span className="bold-it">My name is Kiryl.</span> I’m a product
@@ -34,9 +27,7 @@ export default function Home() {
         </div>
       </div>
     </section>
-        </main>
+  );
+};
 
-        
-    </div>
-  )
-}
+export default Hero;
