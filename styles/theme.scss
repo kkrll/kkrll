@@ -1,21 +1,26 @@
 @import url("https://fonts.googleapis.com/css2?family=Newsreader:ital,wght@0,200;0,400;1,200;1,400&display=swap");
-@import url('https://fonts.googleapis.com/css2?family=Bitter:ital,wght@0,200;0,400;1,200;1,300&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Bitter:ital,wght@0,200;0,400;1,200;1,300&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@300&display=swap");
 $font-primary: "Newsreader", "Bitter", Verdana, serif;
+$font-secondary: "Inter", sans-serif;
 
 //Colours
-$dark-primary: #0a0908;
-$dark-secondary: #0e0e11;
-$light-primary: #fff;
-$light-secondary: #f5f5f5;
-$grey-primary: #f7f3f0;
+$white: #fff;
+$black: #060c0e;
 
-@media (prefers-color-scheme: dark) {
+$grey-900: #12242b;
+$grey-800: #19323c;
+$grey-600: #87969e;
+$grey-300: #d1d7da;
+$grey-200: #e8edef;
+$grey-100: #f2f3f4;
 
-    //Colours
-    $dark-primary: #f5f5f5;
-    $dark-secondary: #f7f3f0;
-    $light-primary: #fff;
-    $light-secondary: #0e0e11;
-    $grey-primary: #0a0908;
-    
-    }
+$copper-700: #8a5c56;
+$copper-500: #a16f68;
+
+$red-800: #cc2c00;
+$red-400: #ff6f47;
+$red-300: #ff8360;
+
+$azure-700: #3c7e90;
+$azure-500: #448fa3;

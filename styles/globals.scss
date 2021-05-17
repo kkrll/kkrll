@@ -1,9 +1,10 @@
+@import "theme";
+
 html,
 body {
   padding: 0;
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
-    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+  font-family: $font-primary;
 }
 
 a {
@@ -14,9 +15,6 @@ a {
 * {
   box-sizing: border-box;
 }
-
-@import "theme";
-
 //helpers
 
 //font-weight
@@ -49,6 +47,11 @@ h3 {
 }
 p {
   line-height: 1.4;
+  font-weight: 300;
+}
+
+.centred {
+  text-align: center;
 }
 
 //layout
@@ -58,16 +61,42 @@ p {
   justify-content: space-between;
 }
 
+.row {
+  display: flex;
+}
+
 //margins
 
+.m-0 {
+  margin: 0 !important;
+}
+.mr-1 {
+  margin-right: 4px !important;
+}
+.mb-1 {
+  margin-bottom: 4px !important;
+}
+.mb-2 {
+  margin-bottom: 8px !important;
+}
 .mb-4 {
-  margin-bottom: 16px;
+  margin-bottom: 16px !important;
 }
 .mb-6 {
-  margin-bottom: 24px;
+  margin-bottom: 24px !important;
 }
 .mb-8 {
-  margin-bottom: 32px;
+  margin-bottom: 32px !important;
+}
+.mx-auto {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+//width
+
+.w-full {
+  width: 100%;
 }
 
 //styles
@@ -78,9 +107,9 @@ p {
 }
 
 body {
-  color: $dark-primary;
+  color: $grey-900;
   font-family: $font-primary;
-  background-color: $light-secondary;
+  background-color: $grey-100;
   font-weight: 300;
 }
 
@@ -101,7 +130,7 @@ header {
   max-width: 960px;
   height: 3rem;
   margin: 0 auto;
-  background-color: $light-secondary;
+  background-color: $grey-100;
 }
 
 .logo {
@@ -110,7 +139,7 @@ header {
 
 .menu-item {
   padding: 1rem;
-  color: $dark-primary;
+  color: $grey-900;
   text-decoration: none;
   transition: cubic-bezier(0.075, 0.82, 0.165, 1) 0.3s;
   margin-left: 1rem;
@@ -118,7 +147,7 @@ header {
 
 .menu-item:hover {
   padding: 1rem;
-  background-color: $grey-primary;
+  background-color: $grey-200;
   text-decoration: none;
   cursor: pointer;
 }
@@ -127,4 +156,33 @@ header {
   margin-top: 45vh;
   display: flex;
   align-items: center;
+}
+
+.divider-vert {
+  height: auto;
+  width: 1px;
+  margin: 0 0.5rem;
+  background-color: $grey-300;
+}
+
+.divider-hor {
+  width: auto;
+  height: 1px;
+  margin: 0.5rem auto;
+  background-color: $grey-300;
+}
+
+.reading-item-type {
+  padding: 0.25rem 0.5rem;
+  background-color: $grey-800;
+  color: $white;
+  border-radius: 0.5rem;
+}
+
+.tag {
+  padding: 0.25rem 0.5rem;
+  background-color: $grey-200;
+  color: $grey-800;
+  margin-right: 0.5rem;
+  border-radius: 0.5rem;
 }
