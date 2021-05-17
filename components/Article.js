@@ -74,7 +74,7 @@ const Article = ({ item, close, filter }) => {
           <LinkContainer target="_blank">Open Source</LinkContainer>
         </Link>
       </Box>
-      <p>{RichText.asText(item.data.review)}</p>
+      <p>{RichText.render(item.data.review)}</p>
       {tags.map((tag) => {
         return <Tag type="hashtag" content={tag} action={filter} />;
       })}

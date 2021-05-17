@@ -44,6 +44,7 @@ export const { styled } = createCss({
       32: "32px",
       64: "64px",
       128: "128px",
+      third: "30%",
     },
     sizes: {
       2: "2px",
@@ -54,6 +55,7 @@ export const { styled } = createCss({
       32: "32px",
       64: "64px",
       128: "128px",
+      320: "320px",
       full: "100%",
     },
     radii: {

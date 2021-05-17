@@ -4,9 +4,7 @@ import Prismic from "prismic-javascript";
 import { Box } from "../components/Box";
 import ReadingItem from "../components/ReadingItem";
 import { Client } from "./api/prismic-configuration";
-import { RichText } from "prismic-reactjs";
 import Article from "../components/Article";
-import { Tag } from "../components/Tag";
 import { Button } from "../components/Button";
 
 export default function Home({ readingItems }) {
@@ -57,6 +55,8 @@ export default function Home({ readingItems }) {
           <Box
             css={{
               padding: "0 $16 $16 0",
+              minWidth: "$320",
+              width: "30%",
             }}
           >
             <div>
