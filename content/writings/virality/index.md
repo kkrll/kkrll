@@ -1,10 +1,10 @@
 ---
 title: Virality
-date: "2015-05-28T22:40:32.169Z"
+date: "2022-07-15"
 description: Virality is a notion of common knowledge today - almost everyone has some understanding of it. Becoming viral is a healthy intention for a product, service provider or creator. So here we are going to dive a bit deeper into how it works and what companies do to give more reasons and means for their audience to share a word about them.
 ---
 
-This article is the first part of two, which is theoretical and describes how companies leverage virality. The second one is about the workshop intended to ideate on how we can use it and turntheory into practice.
+This article is the first part of two, which is theoretical and describes how companies leverage virality. [The second one](/virality-workshop) is about the workshop intended to ideate on how we can use it and turntheory into practice.
 
 ## What is virality technically?
 
@@ -84,13 +84,18 @@ Pretty straight this one is - you can set a reward for any new referred user. It
 
 Virality is often associated with marketing but it also requires your product to be built in a way easy to share or contain the motivation to tell spread a word about it. Penenberg's "Viral loop" mentioned above contains the common traits of viral products and some of them still are applicable today:
 
-- **Free:**
+- #### Free:
   a core value of your product should be available to the clients at no charge and easy to get so that they can get a taste of it;
-- **Organizational technology:** don’t create content — let your users do it and simply organize it. Facilitating access can lead to a mass audience. Take a look at Google or Instagram.
-- **Simple concept:** easy and intuitive to use.
-- **Built-in virality:** users spread the product purely out of their own self-interest and, in the process, offer a powerful word-of-mouth endorsement to each subsequent user. (And word of mouth is widely viewed as the best form of advertising.)
-- **Network effects:** The more who join, the more who have an incentive to join. A telephone, for example, becomes continually more helpful to those, who already have one as more people are added to the network.
-- **Stackability:** A viral network can be laid over another, fostering the other’s growth (PayPal as a payment tool for online payments; YouTube video embedding).
+- #### Organizational technology:
+  Don’t create content — let your users do it and simply organize it. Facilitating access can lead to a mass audience. Take a look at Google or Instagram;
+- #### Simple concept:
+  Easy and intuitive to use;
+- #### Built-in virality:
+  Users spread the product purely out of their own self-interest and, in the process, offer a powerful word-of-mouth endorsement to each subsequent user (and word of mouth is widely viewed as the best form of advertising);
+- #### Network effects:
+  The more who join, the more who have an incentive to join. A telephone, for example, becomes continually more helpful to those, who already have one as more people are added to the network;
+- #### Stackability:
+  A viral network can be laid over another, fostering the other’s growth (PayPal as a payment tool for online payments; YouTube video embedding).
 
 ---
 
@@ -102,9 +107,12 @@ Your product may make some use of user data or specific functionality. It allows
 
 ![Sharable content](./sharableContent.png)
 
-- **Spotify** - Several times a year you can see your social networks get full of [Spotify Wrapped](https://www.vox.com/culture/22814121/spotify-wrapped-2021-algorithm-data-privacy) - everyone shares their listener’s stats. It’s a great example of how company gets use of the data it owns;
-- **Snapchat, Instagram, TikTok, Prisma…** - Users share unique content made with the apps on other platforms, which usually mention the tool. This is an example of how this apps facilitate virality with sharing mechanisms;
-- **Hotmail** - You may know the [famous story](https://techcrunch.com/2009/10/18/ps-i-love-you-get-your-free-email-at-hotmail/) about “Get your free email at Hotmail.com” footer. Every message sent from Hotmail used to contain this little promo line and let the company grow the awareness and userbase exponentially.
+- #### Spotify
+  Several times a year you can see your social networks get full of [Spotify Wrapped](https://www.vox.com/culture/22814121/spotify-wrapped-2021-algorithm-data-privacy) - everyone shares their listener’s stats. It’s a great example of how company gets use of the data it owns;
+- #### Snapchat, Instagram, TikTok, Prisma…
+  Users share unique content made with the apps on other platforms, which usually mention the tool. This is an example of how this apps facilitate virality with sharing mechanisms;
+- #### Hotmail
+  You may know the [famous story](https://techcrunch.com/2009/10/18/ps-i-love-you-get-your-free-email-at-hotmail/) about “Get your free email at Hotmail.com” footer. Every message sent from Hotmail used to contain this little promo line and let the company grow the awareness and userbase exponentially.
 
 ---
 
@@ -114,9 +122,12 @@ Some solutions are stacked over the other services attracting users on other pla
 
 ![Commodities](./commodities.png)
 
-- **Youtube** -It was and it is still hard to imagine a website without an embedded Youtube video years ago
-- **Paypal** - It has become a convenient payment instrument for both sides of deal (mostly on eBay in the yearly days) + 10$ joining reward stimulated link sharing even more;
-- **“Book me” apps (Booksy, Bookme …)** - Simple (but still branded) booking tools empower entrepreneurs to process clients and clients are happy to see availability and avoid calling. But it also allowed those apps to enter other platforms same as PayPal did at zero price;
+- #### Youtube
+  It was and it is still hard to imagine a website without an embedded Youtube video years ago
+- #### Paypal
+  It has become a convenient payment instrument for both sides of deal (mostly on eBay in the yearly days) + 10$ joining reward stimulated link sharing even more;
+- #### “Book me”
+  apps (Booksy, Bookme …)\*\* - Simple (but still branded) booking tools empower entrepreneurs to process clients and clients are happy to see availability and avoid calling. But it also allowed those apps to enter other platforms same as PayPal did at zero price;
 
 ---
 
@@ -126,9 +137,12 @@ Offers made by products stimulate users to invite others to the platform. It's a
 
 ![Deal](./deal.png)
 
-- **Tupperware** - Pioneer of viral marketing with the [Tupperware parties](https://en.wikipedia.org/wiki/Tupperware#Tupperware_parties) - the party is run by a Tupperware "consultant" for a host or hostess who invites friends and neighbours into their home to see the product line. This way, a customer can become a distributor and get an income share;
-- **Dropbox** - Dropbox used to give away its own currency – you could get extra cloud storage for inviting new users;
-- **Uber** - Invited users bring you both a deposit.
+- #### Tupperware
+  Pioneer of viral marketing with the [Tupperware parties](https://en.wikipedia.org/wiki/Tupperware#Tupperware_parties) - the party is run by a Tupperware "consultant" for a host or hostess who invites friends and neighbours into their home to see the product line. This way, a customer can become a distributor and get an income share;
+- #### Dropbox
+  Dropbox used to give away its own currency – you could get extra cloud storage for inviting new users;
+- #### Uber
+  Invited users bring you both a deposit.
 
 ---
 
@@ -138,9 +152,12 @@ Companies may spread brand awareness and build trust through expert content or t
 
 ![Content](./content.png)
 
-- **Inside intercom** - [Inside intercom](https://www.intercom.com/blog/) has a nice blog on building a product - taking into account their b2b model, it's accurate targeting for their audience;
-- **App store** - Curated app lists help to grow the audience for the apps and increase downloads for the market;
-- **Aviasales** - [Travel blog](https://www.aviasales.ru/psgr) by a travel company not only tells you about
+- #### Inside intercom
+  [Inside intercom](https://www.intercom.com/blog/) has a nice blog on building a product - taking into account their b2b model, it's accurate targeting for their audience;
+- #### App store
+  Curated app lists help to grow the audience for the apps and increase downloads for the market;
+- #### Aviasales
+  [Travel blog](https://www.aviasales.ru/psgr) by a travel company not only tells you about
   possible destinations but provides a ticket.
 
 ---
@@ -151,9 +168,12 @@ Entertaining, useful and exciting initiatives, which are not obligatory connecte
 
 ![Side missions](./sideMissions.png)
 
-- **Airbnb lottie** - [Bodymovin](https://exchange.adobe.com/creativecloud.details.12557.bodymovin.html) animation tool [upgrade](https://airbnb.design/lottie/) along with [code style guide](https://airbnb.io/javascript/react/) adds up to the company authority;
-- **Recycle at H&M** - Recycling initiative has created another reason to bring a visit;
-- **Google experiments** - Quite a lot of [Google Experiments](https://experiments.withgoogle.com/) help to increase the brand’s image as an innovative and versatile one.
+- #### Airbnb lottie
+  [Bodymovin](https://exchange.adobe.com/creativecloud.details.12557.bodymovin.html) animation tool [upgrade](https://airbnb.design/lottie/) along with [code style guide](https://airbnb.io/javascript/react/) adds up to the company authority;
+- #### Recycle at H&M
+  Recycling initiative has created another reason to bring a visit;
+- #### Google experiments
+  Quite a lot of [Google Experiments](https://experiments.withgoogle.com/) help to increase the brand’s image as an innovative and versatile one.
 
 ---
 

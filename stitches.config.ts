@@ -132,6 +132,14 @@ export const { styled, css, getCssText, createTheme } = createStitches({
 // })
 
 export const globalStyles = globalCss({
-  body: { backgroundColor: "$background_primary" },
+  body: {
+    backgroundColor: "$background_primary",
+    fontFamily: "$sans",
+    lineHeight: "1.4",
+  },
   "*": { color: "$text_primary" },
+
+  h4: {
+    marginBottom: "$4",
+  },
 })

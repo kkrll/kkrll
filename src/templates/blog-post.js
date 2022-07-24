@@ -4,6 +4,7 @@ import { Link, graphql } from "gatsby"
 import Bio from "../components/bio"
 import Layout from "../components/layout"
 import Seo from "../components/seo"
+import { Box } from "../components/box"
 
 const BlogPostTemplate = ({ data, location }) => {
   const post = data.markdownRemark
@@ -16,16 +17,33 @@ const BlogPostTemplate = ({ data, location }) => {
         title={post.frontmatter.title}
         description={post.frontmatter.description || post.excerpt}
       />
-      <article
-        className="blog-post"
+      <Box
+        as="article"
+        css={{
+          maxWidth: "$640",
+          marginX: "auto",
+        }}
         itemScope
         itemType="http://schema.org/article"
       >
-        <header>
+        <Box
+          as="header"
+          css={{
+            marginY: "$64",
+          }}
+        >
           <h1 itemProp="headline">{post.frontmatter.title}</h1>
-          <p itemProp="headline">{post.frontmatter.description}</p>
+          <Box
+            as="p"
+            itemProp="headline"
+            css={{
+              fontSize: "$20",
+            }}
+          >
+            {post.frontmatter.description}
+          </Box>
           <p>{post.frontmatter.date}</p>
-        </header>
+        </Box>
         <section
           dangerouslySetInnerHTML={{ __html: post.html }}
           itemProp="articleBody"
@@ -34,7 +52,7 @@ const BlogPostTemplate = ({ data, location }) => {
         <footer>
           <Bio />
         </footer>
-      </article>
+      </Box>
       <nav className="blog-post-nav">
         <ul
           style={{
